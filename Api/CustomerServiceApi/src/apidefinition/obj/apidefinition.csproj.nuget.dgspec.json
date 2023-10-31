@@ -1,0 +1,106 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/developer/Source/ProjectFoodService/CustomerService/CustomerService/Api/CustomerServiceApi/src/apidefinition/apidefinition.csproj": {}
+  },
+  "projects": {
+    "/home/developer/Source/ProjectFoodService/CustomerService/CustomerService/Api/CustomerServiceApi/src/apidefinition/apidefinition.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/developer/Source/ProjectFoodService/CustomerService/CustomerService/Api/CustomerServiceApi/src/apidefinition/apidefinition.csproj",
+        "projectName": "apidefinition",
+        "projectPath": "/home/developer/Source/ProjectFoodService/CustomerService/CustomerService/Api/CustomerServiceApi/src/apidefinition/apidefinition.csproj",
+        "packagesPath": "/home/developer/.nuget/packages/",
+        "outputPath": "/home/developer/Source/ProjectFoodService/CustomerService/CustomerService/Api/CustomerServiceApi/src/apidefinition/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/developer/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net7.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net7.0": {
+            "targetAlias": "net7.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net7.0": {
+          "targetAlias": "net7.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            },
+            "Azure.Storage.Blobs": {
+              "target": "Package",
+              "version": "[12.18.0, )"
+            },
+            "Azure.Storage.Queues": {
+              "target": "Package",
+              "version": "[12.16.0, )"
+            },
+            "Microsoft.ApplicationInsights": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.ApplicationInsights.AspNetCore": {
+              "target": "Package",
+              "version": "[2.21.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[7.0.12, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.5.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/lib/dotnet/sdk/7.0.113/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
